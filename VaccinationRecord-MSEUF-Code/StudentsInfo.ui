@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>439</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>InformationTable</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(172, 125, 136);</string>
+  </property>
+  <widget class="QTableWidget" name="tableInfo">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>401</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(248, 236, 209);
+color: rgb(128, 80, 42);
+font: 10pt &quot;Impact&quot;;</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>Student ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Department</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Course</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Year Level</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
